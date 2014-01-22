@@ -80,27 +80,35 @@ Background obtained on Creative Commons license via Flickr at http://www.flickr.
 
 body {}
 
-#flag {
-  background: white;
-  width: 48%;
+#flag {}
+
+#contentscreen {
+  background:white;
+  position: absolute;
+  bottom: 0;
+  width: 66.66%;
   min-width: 300px;
-  display: inline-block;
+  height: 100%;
+  opacity: 0.75;
+  z-index: 0;
 }
 
 #form {
-  background: white;
-  width: 48%;
-  min-width: 300px;
-  display: inline-block;
-  float: right
+  width: 66.66%;
+  min-width: 300px; 
+  position: relative;
+  z-index: 10;
+  padding: 1em;
 }
 
 #footer {
-  color: white;
-  width: 100%;
-  font-size: 0.75em;
-  position: absolute;
-  bottom: 0
+  width: 66.66%; 
+  min-width: 300px; 
+  font-size: 1em;
+  position: relative;
+  z-index: 10;
+  padding: 1em;
+  margin-top: 3em
 }
 
 #flag {color: #2815D4;}
