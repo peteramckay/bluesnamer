@@ -41,12 +41,11 @@
    line-height: 1.4;
    width: 100%;
    height: 100%;
+   font-family: 'Brawler', serif;
    background: url('../img/guitarbackground.jpg');
    background-repeat: no-repeat;
-   background-attachment: fixed;
    background-size: cover;
-   font-family: 'Brawler', serif;
-
+   background attachment: fixed;
 /*
 
 Background obtained on Creative Commons license via Flickr at http://www.flickr.com/photos/rickharris/368538048/sizes/o/
@@ -80,43 +79,26 @@ Background obtained on Creative Commons license via Flickr at http://www.flickr.
 
 body {}
 
-#flag {}
-
-#contentscreen {
-  background:white;
-  position: absolute;
+#wallpaper {
+  position: fixed;
   bottom: 0;
-  width: 66.66%;
-  min-width: 300px;
+  width: 100%;
   height: 100%;
   opacity: 0.75;
-  z-index: 0;
+  background: black;
+  z-index: 0
 }
 
-#form {
-  width: 66.66%;
-  min-width: 300px; 
+#contentarea {
   position: relative;
   z-index: 10;
-  padding: 1em;
-}
-
-#footer {
-  width: 66.66%; 
-  min-width: 300px; 
-  font-size: 1em;
-  position: relative;
-  z-index: 10;
-  padding: 1em;
-  margin-top: 3em
-}
-
-#flag {color: #2815D4;}
-
-#smpsig {
-  font-family: 'Pacifico', cursive;
-  color: #9E3333;
-  display: inline-block
+  width: 80%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 2em;
+  background: #EEEDFF
 }
 
 
