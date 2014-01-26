@@ -70,7 +70,7 @@ Background obtained on Creative Commons license via Flickr at http://www.flickr.
 
   a {
     text-decoration: none;
-    color: white;
+    color: #969696;
   }
   
   a:hover {text-decoration: underline}
@@ -86,7 +86,7 @@ body {}
   min-width: 300px;
   margin: 0 auto;
   margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 6em;
   padding: 2em;
   background-color: #fff;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
@@ -122,10 +122,27 @@ body {}
 }
 
 
-form {margin-top: 2em;}
+form {
+  margin-top: 2em;
+}
 
 input {margin-bottom: 1em}
   
+.footer {
+  text-align: center;
+  color: #c9c9c9;
+  font-size: 1em;
+  font-size: 1em;
+  background: #404040;
+  width: 100%;
+  padding: 0.25em;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+}  
+
+.footer a {color: white;}
+
 /* #Media Queries
 ================================================== */
 
