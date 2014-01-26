@@ -1,92 +1,36 @@
+/*
+"Sweet Meat" Pete's Ultimate Blues Name Generator
+Copyright Peter McKay, 2014
+Open Source under MIT License
+
+*/
 
 
-/*Shouldn't there be male or female ararys?*/
+
+var RnameF,
+    RnameM,
+    RnameL;
+
+var BnameFM = ['Fat', 'Buddy', 'Sticky', 'Old', 'Texas', 'Mississippi', 'Ugly', 'Brown', 'Happy', 'Boney', 'Curly', 'Prettyboy', 'Jailhouse', 'Peg Leg', 'Red', 'Sweet', 'Bald', 'Skinny', 'Blind', 'Big', 'Yella', 'Toothless', 'Slick', 'Fat Boy', 'Washboard', 'Sleepy'];
+
+var BnameFF = ['Foxy', 'Gypsy', 'Sticky', 'Grandma', 'Louisiana', 'Alabama', 'Queen', 'Brown', 'Happy', 'Boney', 'Curly', 'Pretty', 'Jailhouse', 'Frenchie', 'Red', 'Sweet', 'Clean', 'Skinny', 'Miss', 'Big', 'Yella', 'Half-moon', 'Slick', 'Pine Tree', 'Washboard', 'Sleepy'];
+
+var BnameMM = ['Meat', 'Money', 'Harp', 'Legs', 'Eyes', 'Lemon', 'Killer', 'Hips', 'Lips', 'Fingers', 'Boy', 'Liver', 'Gumbo', 'Foot', 'Papa', 'Back', 'Earl', 'Dog', 'Buddy', 'Baby', 'Chicken', 'Pickles', 'Sugar', 'Willie', 'Tooth', 'Smokey'];
+
+var BnameMF = ['Meat', 'Money', 'Harp', 'Legs', 'Eyes', 'Lemon', 'Girl', 'Hips', 'Lips', 'Fingers', 'Lady', 'Liver', 'Gumbo', 'Foot', 'Mama', 'Back', 'Dutchess', 'Dog', 'Mary', 'Babygirl', 'Chickenfoot', 'Pickles', 'Sugar', 'Janie', 'Tooth', 'Suzie'];
+
+var BnameLast = ['Jackson', 'McGee', 'Haskins', 'Dupree', 'Green', 'Brown', 'Jones', 'Rivers', 'Wilson', 'Washington', 'Smith', 'Parker', 'Lee', 'Thompkins', 'King', 'Bradley', 'Hawkins', 'Jefferson', 'Davis', 'Franklin', 'White', 'Jenkins', 'Bailey', 'Johnson', 'Henderson', 'Allison']; 
+
+var BnameFull 
 
 
-/*Names for first name array*/
+function generateBname (){
 
-Fat
-Buddy
-Sticky
-Old
-Texas
-Hollerin'
-Ugly
-Brown
-Happy
-Boney
-Curly
-Pretty
-Jailhouse
-Peg Leg
-Red
-Sweet
-Bald
-Skinny
-Blind
-Big
-Yella
-Toothless
-Screamin'
-Fat Boy
-Washboard
-Sleepy
+  RnameF = document.bngform.RnameF.value;
+  RnameM = document.bngform.RnameM.value;
+  RnameL = document.bngform.RnameL.value;
+  Sex = document.bngform.sex.value
 
-/*Names for middle name array*/
 
-Meat
-Money
-Harp
-Legs
-Eyes
-Lemon
-Killer
-Hips
-Lips
-Fingers
-Boy
-Liver
-Gumbo
-Foot
-Mama
-Back
-Earl
-Dog
-Buddy
-Baby
-Chicken
-Pickles
-Sugar
-Willie
-Tooth
-Smoke
-
-/*Names for surname array*/
-
-Jackson
-McGee
-Hopkins
-Dupree
-Green
-Brown
-Jones
-Rivers
-Malone
-Washington
-Smith
-Parker
-Lee
-Thompkins
-King
-Bradley
-Hawkins
-Jefferson
-Davis
-Franklin
-White
-Jenkins
-Bailey
-Johnson
-Blue
-Allison
+} ;
 

@@ -6,7 +6,7 @@
   <meta name="description" content="Sweet Meat Pete's Ultimate Blues Name Generator">
   <meta name="author" content="Peter McKay">
   <title>"Sweet Meat" Pete's Ultimate Blues Name Generator</title>
-  <link href='http://fonts.googleapis.com/css?family=Pacifico|Brawler|Hammersmith+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Brawler|Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/base.css">
 
@@ -28,10 +28,20 @@
 <body>
 
   <div id="contentarea">
+
     <h1>"Sweet Meat" Pete's Ultimate Blues Name Generator</h1>
-    <p>Form goes here...</p>
+
+    <form name="bngform" action="" method="get">
+      <span class="formhed">First Name</span> <input type="text" name="RnameF" value=""><br>
+      <span class="formhed">Middle Name</span> <input type="text" name="RnameM" value=""><br>
+      <span class="formhed">Last Name</span> <input type="text" name="RnameL" value=""><br>
+      <span class="formhed">Gender</span><br>
+      <input type="radio" name="sex" value="male"><span class="formhed">Hoochie Coochie Man</span><br>
+      <input type="radio" name="sex" value="female"><span class="formhed">Mean Mistreatin' Woman</span><br>
+      <input type="submit" value="Submit" onSubmit="generateBname(this.form)">
+    </form>
+
   </div>
-  <div id="wallpaper"></div>
 
 </body>
 </html>
