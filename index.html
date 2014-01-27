@@ -32,17 +32,23 @@
     <h1>"Sweet Meat" Pete's Ultimate Blues Name Generator</h1>
 
     <form name="bngform" action="" method="get">
-      <span class="formhed">First Name</span> <input type="text" name="RnameF" value=""><br>
-      <span class="formhed">Middle Name</span> <input type="text" name="RnameM" value=""><br>
-      <span class="formhed">Last Name</span> <input type="text" name="RnameL" value=""><br>
-      <span class="formhed">Gender</span><br>
-      <input type="radio" name="sex" value="male"><span class="formhed">Hoochie Coochie Man</span><br>
-      <input type="radio" name="sex" value="female"><span class="formhed">Mean Mistreatin' Woman</span><br>
-      <input type="radio" name="sex" value="trans"><span class="formhed">You know how I feel. It's a new dawn. It's a new day.</span><br>
-      <input type="submit" value="Submit" onSubmit="generateBname(this.form)">
+      <p>First, we'll need the name your mama and the government call you by.</p>
+      <input type="text" name="RnameF" value="" placeholder="First"><br>
+      <input type="text" name="RnameM" value="" placeholder="Middle"><br>
+      <input type="text" name="RnameL" value="" placeholder="Last"><br>
+      <p>Next, your gender, please.</p><br>
+      <input type="radio" name="sex" id="male" value="male">
+      <label for="male">Hoochie Coochie Man</label><br>
+      <input type="radio" name="sex" id="female" value="female">
+      <label for="female">Mean Mistreatin' Woman</label><br>
+      <input type="radio" name="sex" id="trans" value="trans">
+      <label for="trans">It's a new day. It's a new life for me.</label><br>
+      <input type="submit" value="Submit" onSubmit="generateBname(this.form)" id="subbutton">
     </form>
-  </div>
-  <div class="footer">What's this all <a href="about.html">about</a>? | Copyright Peter McKay, 2014 | Software is open source under MIT License</div>
+
+  </div><!-- End contentarea-->
+
+<p class="footer">What this all <a href="about.html">about</a>? | Copyright Peter McKay, 2014 | Software is open source under MIT License</p>
 
 </body>
 </html>

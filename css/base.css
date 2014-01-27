@@ -45,7 +45,7 @@
    background: url('../img/guitarbackground.jpg');
    background-repeat: no-repeat;
    background-size: cover;
-   background attachment: fixed;
+   background-attachment: fixed;
 /*
 
 Background obtained on Creative Commons license via Flickr at http://www.flickr.com/photos/rickharris/368538048/sizes/o/
@@ -58,19 +58,19 @@ Background obtained on Creative Commons license via Flickr at http://www.flickr.
   h1, h2, h3, h4, h5, h6 {font-family: 'Brawler', serif;}
 
 
-  h1 {font-size: 3.2em}
+  h1 {font-size: 2.8em}
 
-  h2 {font-size: 2.8em}
+  h2 {font-size: 2.4em}
 
-  h3 {font-size: 2.4em}
+  h3 {font-size: 1.8em}
 
-  h4, h5, h6 {font-size: 1.8em}
+  h4, h5, h6 {font-size: 1.6em}
 
-  p, li, input, .formhed {font-size: 1.6em}
+  p, li, input, label {font-size: 1.4em}
 
   a {
     text-decoration: none;
-    color: #969696;
+    color: #4B2F9E;
   }
   
   a:hover {text-decoration: underline}
@@ -78,16 +78,17 @@ Background obtained on Creative Commons license via Flickr at http://www.flickr.
 /* #Basic Element Styles
 ================================================== */
 
-body {}
+body {
+  padding-top: 3em;
+  padding-bottom: 4em}
 
 #contentarea {
   position: relative;
-  width: 80%;
+  width: 75%;
   min-width: 300px;
+  padding: 3em;
   margin: 0 auto;
-  margin-top: 2em;
-  margin-bottom: 6em;
-  padding: 2em;
+  margin-bottom: 4em;
   background-color: #fff;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
@@ -123,25 +124,36 @@ body {}
 
 
 form {
-  margin-top: 2em;
+  text-align: center;
+  margin-top: 2.5em;
+  }
+
+form p {margin-top: 1.5em}
+
+input {
+  width: 90%;
+  max-width: 500px;
+  display: inline-block;
+  margin-top: 1.5em;
+  padding: 0.25em
 }
 
-input {margin-bottom: 1em}
-  
-.footer {
-  text-align: center;
-  color: #c9c9c9;
-  font-size: 1em;
-  font-size: 1em;
-  background: #404040;
-  width: 100%;
-  padding: 0.25em;
-  margin: 0 auto;
-  position: fixed;
-  top: 0;
-}  
+#subbutton {
+  padding: 0.5em; 
+  background: #0E008F; 
+  color: white;
+  margin-top: 3em;
+}
 
-.footer a {color: white;}
+#contentarea h1 {text-align: center}
+
+.footer {
+  color: #C4C4C4;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.footer a {color: white}
 
 /* #Media Queries
 ================================================== */
