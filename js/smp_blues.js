@@ -37,3 +37,4 @@ function generateBname (){
 
 } ;
 
+console.log('Hello from Pete\'s script.');
