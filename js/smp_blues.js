@@ -19,10 +19,13 @@ var BnameMM = ['Meat', 'Money', 'Harp', 'Legs', 'Eyes', 'Lemon', 'Killer', 'Hips
 
 var BnameMF = ['Meat', 'Money', 'Harp', 'Legs', 'Eyes', 'Lemon', 'Girl', 'Hips', 'Lips', 'Fingers', 'Lady', 'Liver', 'Gumbo', 'Foot', 'Mama', 'Back', 'Dutchess', 'Dog', 'Mary', 'Babygirl', 'Chickenfoot', 'Pickles', 'Sugar', 'Janie', 'Tooth', 'Suzie'];
 
-var BnameLast = ['Jackson', 'McGee', 'Haskins', 'Dupree', 'Green', 'Brown', 'Jones', 'Rivers', 'Wilson', 'Washington', 'Smith', 'Parker', 'Lee', 'Thompkins', 'King', 'Bradley', 'Hawkins', 'Jefferson', 'Davis', 'Franklin', 'White', 'Jenkins', 'Bailey', 'Johnson', 'Henderson', 'Allison']; 
+var BnameFN = ['Ashy', 'City', 'Country', 'Deacon', 'Doctor', 'Downtown', 'Dusty', 'Fast-Talkin\'', 'Fraidy-Cat', 'Good ol\'', 'Hollerin\'', 'Lazy', 'Little', 'Mighty', 'No-', 'Preachin\'', 'Raggedy', 'Screamin\'', 'Silver', 'Smilin', 'Surly', 'Testifyin\'', 'The Reverend', 'Travelin\'', 'Uptown', 'Wailin\''],
+
+    BnameMN = ['Belly', 'Blue', 'Crotch', 'Downtown', 'Knees', 'Knuckles', 'Mess', 'Nose', 'Pants', 'Shoes', 'Teeth', 'Toes']; 
+
+var BnameLast = ['Jackson', 'McGee', 'Haskins', 'Dupree', 'Green', 'Brown', 'Jones', 'Rivers', 'Wilson', 'Washington', 'Smith', 'Parker', 'Lee', 'Thompkins', 'King', 'Bradley', 'Hawkins', 'Jefferson', 'Davis', 'Franklin', 'White', 'Jenkins', 'Bailey', 'Johnson', 'Henderson', 'Allison', 'Carruthers']; 
 
 var BnameFull 
-
 
 function generateBname (){
 
