@@ -1,19 +1,30 @@
 
 
-var maleFirst = {}
+var realName = {}; // An empty array. We'll save the user inputs here later... 
 
-var maleNN = {}
+var userGender = {}; // An empty array. We'll save the user's gender information here later...
 
-var maleLast = {}
+var bluesFnames = {};
 
-var femaleFirst = {}
+var bluesMnames = {};
 
-var femaleNN = {}
+var bluesAnames = {};
 
-var femaleLast = {}
+var bluesNickNames = {};
 
-var nbFirst = {}
+var bluesSurnames = {};
 
-var nbNN = {}
+// Now, let's do some functions...
 
-var nbLast = {}
+  // Generate a random number...
+  
+  // Paste first question about government name into body of the form, so it's ready to answer...
+
+  // OnClick, add a user input to the realName array...
+
+  // OnClick, record a value to userGender array: 0 for male, 1 for female, and 2 for non-binary identity...
+
+ // Use saved gender, realName inputs, and random number to generate bluesname!
+
+
+

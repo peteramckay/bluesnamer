@@ -4,5 +4,5 @@ A fun project here to create a simple JavaScript app that generates a bluesy nic
 
 Software is free (like a rolling stone) to use under MIT license. 
 
-Pete		
-<a href="https://twitter.com/peteramckay">@peteramckay</a>
+Peter A. McKay        
+<a href="https://twitter.com/peteramckay">@peteramckay</a>      
