@@ -1,5 +1,4 @@
-Software License
-================
+# Software License
 
 ### Copyright (c) 2013-2018, Peter A. McKay
 
