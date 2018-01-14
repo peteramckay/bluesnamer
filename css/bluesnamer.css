@@ -163,6 +163,14 @@ input {
   margin-top: 3em;
 }
 
+
+form input {
+  border: 1px solid #C6C6C6;
+  padding: 0.25em;
+}
+
+
+
 #contentarea h1 {text-align: center}
 
 .footer {

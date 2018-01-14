@@ -3,21 +3,19 @@
 // Free to use under MIT license
 
 
-
-
 var userInfo = {}; // An empty array. We'll save the user inputs here later... 
 
 var ranNumber = {}; //An empty array. We'll generate a random number to save here later...
 
 var bluesFnames = {"Mary", "Frances"};
 
-var bluesMnames = {"Leon", "Willie", "Sonny", "Sherman", "Bill"};
+var bluesMnames = {"Leon", "Willie", "Sonny", "Sherman", "Bill", "Junious"};
 
 var bluesAnames = {"Azariah", "Appomattox", "Lennox"};
 
 var bluesNickNames = {"T-Bone", "Death Letter", "Hot Sauce", "Chickenwire", "Mule Head"};
 
-var bluesSurnames = {"Smith", "Jackson", "Walker", "Jenkins", "Lee", "Perkins", "Malone", "McLee", "McCrae", "McKinley", "Morganfield", "Logan", "Humphries", "Johnson"};
+var bluesSurnames = {"Smith", "Jackson", "Walker", "Jenkins", "Lee", "Perkins", "Malone", "McLee", "McCrae", "McKinley", "Morganfield", "Logan", "Humphries", "Johnson", "Flamer", "Brown"};
 
 
 
@@ -76,6 +74,6 @@ function collectGender() {
 function nameGen(realName, userGender,) {
 }
 
-
+// Add Marsalis easter egg
 
 
