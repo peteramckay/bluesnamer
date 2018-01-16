@@ -3,6 +3,7 @@
 // Free to use under MIT license
 
 
+
 var userInfo = {}; // An empty array. We'll save the user inputs here later... 
 
 var ranNumber = {}; //An empty array. We'll generate a random number to save here later...
@@ -20,13 +21,15 @@ var bluesSurnames = {"Smith", "Jackson", "Walker", "Jenkins", "Lee", "Perkins", 
 
 
 
+  
+
   // Generate a random number...
   
-  function numberGen() {
+    // function numberGen() {
   
   //write results to ranNumber...
   
- };
+  // };
   
   
   
@@ -34,36 +37,26 @@ var bluesSurnames = {"Smith", "Jackson", "Walker", "Jenkins", "Lee", "Perkins", 
   
   
   // Paste first question about government name into body of the form, so it's ready to answer...
-  function collectFirst() {
+  //  function collectFirst() {
   //add results to userInfo array;
- };
-
-
-
-
-
-
+  // };
 
 
 
   // OnClick, add a user input to the realName array...
 
-function collectLast() {
+  //function collectLast() {
  //add results to userInfo array;
- };
-
-
-
-
+  // };
 
 
 
   // OnClick, record a value to userGender array: 0 for male, 1 for female, and 2 for non-binary identity...
 
-function collectGender() {
+  // function collectGender() {
  //add results to userInfo array;
 
-};
+  // };
 
 
 
@@ -71,8 +64,8 @@ function collectGender() {
 
  // Use saved gender, realName inputs, and random number to generate bluesname!
 
-function nameGen(realName, userGender,) {
-}
+  // function nameGen(realName, userGender,) {
+  // }
 
 // Add Marsalis easter egg
 

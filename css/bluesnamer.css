@@ -89,7 +89,7 @@ body {
   padding-top: 3em;
   padding-bottom: 4em}
 
-#contentarea {
+.contentarea {
   position: relative;
   width: 75%;
   min-width: 300px;
@@ -102,7 +102,7 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 }
 
-#contentarea:before, #contentarea:after {
+.contentarea:before, .contentarea:after {
   position: absolute;
   width: 40%;
   height: 1em;
@@ -119,7 +119,7 @@ body {
   z-index: -1;
 }
 
-#contentarea:after {
+.contentarea:after {
   left: auto;
   right: 1em;
   -webkit-transform: skew(5deg) rotate(5deg);
@@ -171,7 +171,7 @@ form input {
 
 
 
-#contentarea h1 {text-align: center}
+.contentarea h1 {text-align: center}
 
 .footer {
   color: #C4C4C4;
