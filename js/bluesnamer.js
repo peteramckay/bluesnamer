@@ -3,20 +3,23 @@
 // Free to use under MIT license
 
 
+var userInfo = []; // An empty array. We'll save the user inputs here later... 
 
-var userInfo = {}; // An empty array. We'll save the user inputs here later... 
+var ranNumber = []; //An empty array. We'll generate a random number to save here later...
 
-var ranNumber = {}; //An empty array. We'll generate a random number to save here later...
+var bluesFnames = ["Mary", "Frances", "Valerie", "Candace", "Alice", "Ida", "Fannie", "Shirley"];
 
-var bluesFnames = {"Mary", "Frances"};
+var bluesMnames = ["Leon", "Willie", "Sonny", "Sherman", "Bill", "Junious", "Slim", "Archie", "Blind Boy"];
 
-var bluesMnames = {"Leon", "Willie", "Sonny", "Sherman", "Bill", "Junious"};
+var bluesAnames = ["Azariah", "Appomattox", "Lennox", "Slim"];
 
-var bluesAnames = {"Azariah", "Appomattox", "Lennox"};
+var bluesNickNames = ["T-Bone", "Death Letter", "Hot Sauce", "Chickenwire", "Mule Head", "Beef Ribs", "Barbecue", "Bumblebee", "Doc", "Sleepyhead", "Lightnin'"];
 
-var bluesNickNames = {"T-Bone", "Death Letter", "Hot Sauce", "Chickenwire", "Mule Head"};
+var bluesSurnames = ["Smith", "Jackson", "Walker", "Jenkins", "Lee", "Perkins", "Malone", "McLee", "McCrae", "McKinley", "Morganfield", "Logan", "Humphries", "Johnson", "Flamer", "Brown"];
 
-var bluesSurnames = {"Smith", "Jackson", "Walker", "Jenkins", "Lee", "Perkins", "Malone", "McLee", "McCrae", "McKinley", "Morganfield", "Logan", "Humphries", "Johnson", "Flamer", "Brown"};
+function pasteQ1() {
+   // paste html for the first question into contentarea element...
+  };
 
 
 
