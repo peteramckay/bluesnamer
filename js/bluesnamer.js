@@ -7,20 +7,33 @@ var userInfo = []; // An empty array. We'll save the user inputs here later...
 
 var ranNumber = []; //An empty array. We'll generate a random number to save here later...
 
-var bluesFnames = ["Mary", "Frances", "Valerie", "Candace", "Alice", "Ida", "Fannie", "Shirley"];
+var bluesFnames = ["Mary", "Frances", "Valerie", "Candace", "Alice", "Ida", "Fannie", "Shirley", 'Foxy', 'Gypsy', 'Sticky', 'Grandma', 'Louisiana', 'Alabama', 'Queen', 'Brown', 'Happy', 'Boney', 'Curly', 'Pretty', 'Jailhouse', 'Frenchie', 'Red', 'Sweet', 'Clean', 'Skinny', 'Miss', 'Big', 'Yella', 'Half-moon', 'Slick', 'Pine Tree', 'Washboard', 'Sleepy', 'Meat', 'Money', 'Harp', 'Legs', 'Eyes', 'Lemon', 'Girl', 'Hips', 'Lips', 'Fingers', 'Lady', 'Liver', 'Gumbo', 'Foot', 'Mama', 'Back', 'Dutchess', 'Dog', 'Mary', 'Babygirl', 'Chickenfoot', 'Pickles', 'Sugar', 'Janie', 'Tooth', 'Suzie'];
 
-var bluesMnames = ["Leon", "Willie", "Sonny", "Sherman", "Bill", "Junious", "Slim", "Archie", "Blind Boy"];
+var bluesMnames = ["Leon", "Willie", "Sonny", "Sherman", "Bill", "Junious", "Slim", "Archie", "Blind Boy", 'Fat', 'Buddy', 'Sticky', 'Old', 'Texas', 'Mississippi', 'Ugly', 'Brown', 'Happy', 'Boney', 'Curly', 'Prettyboy', 'Jailhouse', 'Peg Leg', 'Red', 'Sweet', 'Bald', 'Skinny', 'Blind', 'Big', 'Yella', 'Toothless', 'Slick', 'Fat Boy', 'Washboard', 'Sleepy', 'Papa', 'Earl', 'Buddy',];
 
-var bluesAnames = ["Azariah", "Appomattox", "Lennox", "Slim"];
+var bluesAnames = ["Azariah", "Appomattox", "Lennox", "Slim", 'Meat', 'Money', 'Harp', 'Legs', 'Eyes', 'Lemon', 'Killer', 'Hips', 'Lips', 'Fingers', 'Liver', 'Gumbo', 'Foot', 'Back', 'Baby', 'Chicken', 'Pickles', 'Sugar', 'Tooth', 'Smokey'];
 
-var bluesNickNames = ["T-Bone", "Death Letter", "Hot Sauce", "Chickenwire", "Mule Head", "Beef Ribs", "Barbecue", "Bumblebee", "Doc", "Sleepyhead", "Lightnin'"];
+var bluesNickNames = ["T-Bone", "Death Letter", "Hot Sauce", "Chickenwire", "Mule Head", "Beef Ribs", "Barbecue", "Bumblebee", "Doc", "Sleepyhead", "Lightnin'", 'Belly', 'Blue', 'Crotch', 'Downtown', 'Knees', 'Knuckles', 'Mess', 'Nose', 'Pants', 'Shoes', 'Teeth', 'Toes', 'Ashy', 'City', 'Country', 'Deacon', 'Doctor', 'Downtown', 'Dusty', 'Fast-Talkin\'', 'Fraidy-Cat', 'Good ol\'', 'Hollerin\'', 'Lazy', 'Little', 'Mighty', 'No-', 'Preachin\'', 'Raggedy', 'Screamin\'', 'Silver', 'Smilin', 'Surly', 'Testifyin\'', 'The Reverend', 'Travelin\'', 'Uptown', 'Wailin\''];
 
-var bluesSurnames = ["Smith", "Jackson", "Walker", "Jenkins", "Lee", "Perkins", "Malone", "McLee", "McCrae", "McKinley", "Morganfield", "Logan", "Humphries", "Johnson", "Flamer", "Brown"];
+var bluesSurnames = ["Smith", "Jackson", "Walker", "Jenkins", "Lee", "Perkins", "Malone", "McLee", "McCrae", "McKinley", "Morganfield", "Logan", "Humphries", "Johnson", "Flamer", "Brown", 'Jackson', 'McGee', 'Haskins', 'Dupree', 'Green', 'Brown', 'Jones', 'Rivers', 'Wilson', 'Washington', 'Smith', 'Parker', 'Lee', 'Thompkins', 'King', 'Bradley', 'Hawkins', 'Jefferson', 'Davis', 'Franklin', 'White', 'Jenkins', 'Bailey', 'Johnson', 'Henderson', 'Allison', 'Carruthers'];
 
-function pasteQ1() {
-   // paste html for the first question into contentarea element...
-  };
 
+
+
+
+
+
+//
+
+// function generateBname (){
+//
+//   RnameF = document.bngform.RnameF.value;
+//  RnameM = document.bngform.RnameM.value;
+//  RnameL = document.bngform.RnameL.value;
+//  Sex = document.bngform.sex.value
+
+//
+//} ;
 
 
 
@@ -28,48 +41,5 @@ function pasteQ1() {
 
   // Generate a random number...
   
-    // function numberGen() {
-  
-  //write results to ranNumber...
-  
-  // };
-  
-  
-  
-  
-  
-  
-  // Paste first question about government name into body of the form, so it's ready to answer...
-  //  function collectFirst() {
-  //add results to userInfo array;
-  // };
-
-
-
-  // OnClick, add a user input to the realName array...
-
-  //function collectLast() {
- //add results to userInfo array;
-  // };
-
-
-
-  // OnClick, record a value to userGender array: 0 for male, 1 for female, and 2 for non-binary identity...
-
-  // function collectGender() {
- //add results to userInfo array;
-
-  // };
-
-
-
-
-
- // Use saved gender, realName inputs, and random number to generate bluesname!
-
-  // function nameGen(realName, userGender,) {
-  // }
 
 // Add Marsalis easter egg
-
-
