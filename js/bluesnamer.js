@@ -9,7 +9,7 @@ var ranNumber = []; //An empty array. We'll generate a random number to save her
 
 var bluesFnames = ['Alice', 'Babygirl', 'Back', 'Candace', 'Chickenfoot', 'Dog', 'Dutchess', 'Elvira', 'Frances', 'Mary', 'Valerie', 'Ida', 'Fannie', 'Shirley', 'Foxy', 'Gypsy', 'Sticky', 'Grandma', 'Louisiana', 'Alabama', 'Queen', 'Brown', 'Happy', 'Boney', 'Curly', 'Pretty', 'Jailhouse', 'Frenchie', 'Red', 'Sweet', 'Clean', 'Skinny', 'Miss', 'Big', 'Yella', 'Half-moon', 'Slick', 'Pine Tree', 'Washboard', 'Sleepy', 'Meat', 'Money', 'Harp', 'Legs', 'Eyes', 'Lemon', 'Girl', 'Hips', 'Lips', 'Fingers', 'Lady', 'Liver', 'Gumbo', 'Foot', 'Mama', 'Mary',  'Pickles', 'Sugar', 'Janie', 'Tooth', 'Suzie'];
 
-var bluesMnames = ['Leon', 'Willie", "Sonny", "Sherman", "Bill", "Junious", "Slim", "Archie", "Blind Boy", 'Fat', 'Buddy', 'Sticky', 'Old', 'Texas', 'Mississippi', 'Ugly', 'Brown', 'Happy', 'Boney', 'Curly', 'Prettyboy', 'Jailhouse', 'Peg Leg', 'Red', 'Sweet', 'Bald', 'Skinny', 'Blind', 'Big', 'Yella', 'Toothless', 'Slick', 'Fat Boy', 'Washboard', 'Sleepy', 'Papa', 'Earl', 'Buddy',];
+var bluesMnames = [ 'Bill', 'Junious', 'Sonny', 'Sherman', 'Slim', 'Archie', "Blind Boy", 'Fat', 'Buddy', 'Sticky', 'Old', 'Texas', 'Mississippi', 'Ugly', 'Brown', 'Happy', 'Boney', 'Curly', 'Prettyboy', 'Jailhouse', 'Peg Leg', 'Red', 'Sweet', 'Bald', 'Skinny', 'Blind', 'Big', 'Yella', 'Toothless', 'Slick', 'Fat Boy', 'Washboard', 'Sleepy', 'Papa', 'Earl', 'Buddy',];
 
 var bluesAnames = ["Azariah", "Appomattox", "Lennox", "Slim", 'Meat', 'Money', 'Harp', 'Legs', 'Eyes', 'Lemon', 'Killer', 'Hips', 'Lips', 'Fingers', 'Liver', 'Gumbo', 'Foot', 'Back', 'Baby', 'Chicken', 'Pickles', 'Sugar', 'Tooth', 'Smokey'];
 
@@ -19,23 +19,20 @@ var bluesSurnames = ["Smith", "Jackson", "Walker", "Jenkins", "Lee", "Perkins", 
 
 
 
+ function generateBname (){
+
+   RnameF = document.bngform.RnameF.value;
+   RnameM = document.bngform.RnameM.value;
+   RnameL = document.bngform.RnameL.value;
+   Sex = document.bngform.Sex.value; 
+
+  };
 
 
-
-
-//
-
-// function generateBname (){
-//
-//   RnameF = document.bngform.RnameF.value;
-//  RnameM = document.bngform.RnameM.value;
-//  RnameL = document.bngform.RnameL.value;
-//  Sex = document.bngform.sex.value
-
-//
-//} ;
-
-
+console.log(RnameF);
+console.log(RnameM);
+console.log(RnameL);
+console.log(Sex);
 
   
 
