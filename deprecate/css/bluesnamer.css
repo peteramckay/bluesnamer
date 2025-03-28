@@ -1,7 +1,18 @@
 /*
 
+
+Stashing some old styles here for now, all commented out. Will add back in later...
+
+
+
+
+
+
+
+
+
 * "Sweet Meat" Pete's Ultimate Blues Name Generator
-* Copyright (c) 2013-2018, Peter A. McKay
+* Copyright (c) 2013-2025, Peter A. McKay
 * Free to use under MIT license
 
 
@@ -28,7 +39,7 @@ Table of Content
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
-
+/*
   * {
     margin: 0;
     padding: 0;
@@ -39,7 +50,7 @@ Table of Content
 
 /* #Typography
 ================================================== */
-
+/*
   html {
    font-size: 16px;
    line-height: 1.3;
@@ -55,7 +66,7 @@ Table of Content
 Background obtained on Creative Commons license via Flickr at http://www.flickr.com/photos/rickharris/368538048/sizes/o/
 
 */
-
+/*
 
   }
 
@@ -84,7 +95,7 @@ Background obtained on Creative Commons license via Flickr at http://www.flickr.
 
 /* #Basic Element Styles
 ================================================== */
-
+/*
 body {
   padding-top: 3em;
   padding-bottom: 4em}
@@ -140,7 +151,7 @@ body {
 
 /* #Custom Element Styles
 ================================================== */
-
+/*
 form {
   text-align: center;
   margin-top: 2.5em;
@@ -154,7 +165,7 @@ input {
   display: inline-block;
   margin-top: 1.5em;
  /* padding: 0.25em*/
-}
+/*}
 
 #subbutton {
   padding: 0.5em;
