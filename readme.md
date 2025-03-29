@@ -2,6 +2,8 @@
 
 A fun personal project here to create a simple JavaScript app that generates a bluesy nickname for a user via a web form.
 
+Try it out at https://pmckay.com/bluesnamer 😊
+
 This software is free (like a rolling stone) under MIT license.
 
 Peter A. McKay        
