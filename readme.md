@@ -9,6 +9,8 @@ This software is free (like a rolling stone) under MIT license.
 Peter A. McKay        
 Email: peter[at]pmckay[dot]com      
 
+<br>
+<br>
 
 ![B.B. King photo via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/B.B._King_3011710048.jpg/1280px-B.B._King_3011710048.jpg)
 
