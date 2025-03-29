@@ -4,70 +4,92 @@
 
 <head>
 
-  <style>
+  <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <meta name="description" content="Sweet Meat Pete's Ultimate Blues Name Generator">
+    <meta name="author" content="Peter A. McKay">
 
-    html {background:blue;}
+<!--
+    <meta name="keywords" content="">
+    <!-- Some Open Graph tags. For further options, see https://https://ogp.me/ -->
+    <!--<meta name="og:type" content="website">
+    <meta name="og:title" content="">
+    <meta name="og:description" content="">
+    <meta name="og:url" content=""> -->
 
-    form, #response {background: white; border: 2px dotted grey}
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- A mobile-specific tag -->
 
-  </style>
+    <title>"Sweet Meat" Pete's Ultimate Blues Name Generator</title>
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="https://pmckay.com/css/normalize.css">
+    <link rel="stylesheet" href="https://pmckay.com/css/desmond.css">
+    <link rel="stylesheet" href="css/bluesnamer.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="">
+
+    <!-- Additional HTML5 Optimizations
+    –––––––––––––––––––––––––––––––––––––––––––––––––
+    <link rel="prefetch" href="about/index.html">
+    <link rel="prefetch" href="feed.xml">
+    <link rel="canonical" href=""> <!-- Your site's url here -->
+
+    <!-- Scripts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="js/bluesnamer.js"></script>
+
+<!--
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        //Additional schema.org site metadata here, if you want...
+      }
+    </script>
+-->
 
 </head>
 
 <body>
 
-  <header></header>
+    <header class="container">
+      <h1>"Sweet Meat" Pete's Ultimate Blues Name Generator</h1>
+    </header>
 
-  <main>
+    <main class="container">
 
-    <form class="bngform" id="userForm">
-      <p>First, we'll need the name your mama and the government call you by.</p>
-      <input type="text" name="RnameF" value="" placeholder="First"><br>
-      <input type="text" name="RnameM" value="" placeholder="Middle"><br>
-      <input type="text" name="RnameL" value="" placeholder="Last"><br>
-      <p>Next, your gender, please.</p><br>
-      <input type="radio" name="sex" id="male" value="male">
-      <label for="male">Hoochie Coochie Man</label><br>
-      <input type="radio" name="sex" id="female" value="female">
-      <label for="female">Mean Mistreatin' Woman</label><br>
-      <input type="radio" name="sex" id="nb" value="nb">
-      <label for="other">It's a new day. It's a new life for me.</label><br>
-      <input type="submit" value="Submit" id="subbutton">
-    </form>
+        <form class="bngform eight columns" id="userForm">
+            <p>First, we'll need the name your mama and the government call you by...</p>
+            <input type="text" name="RnameF" value="" placeholder="First"><br>
+            <input type="text" name="RnameM" value="" placeholder="Middle"><br>
+            <input type="text" name="RnameL" value="" placeholder="Last"><br>
+            <br>
+            <p>Next, your gender, please...</p>
+            <input type="radio" name="sex" id="male" value="male">
+            <label for="male">Hoochie Coochie Man</label><br>
+            <input type="radio" name="sex" id="female" value="female">
+            <label for="female">Mean Mistreatin' Woman</label><br>
+            <input type="radio" name="sex" id="nb" value="nb">
+            <label for="other">It's a new dawn. It's a new day.</label><br>
+            <input type="submit" value="Submit" id="subbutton" onclick="generateBluesName()">
+        </form>
 
-    <p id="response"></p>
+        <section id="response" class="four columns">
+        </section>
 
-  </main>
+    </main>
 
-  <footer></footer>
+    <footer class="container">
 
 
-  <script id="namer">
+        <p class="twelve columns">Copyright Peter McKay, 2014-2025 | Email: peter[at]pmckay[dot]com | This software is free (like a rolling stone) under MIT License | Bug reports and pull requests welcome via <a href="https://github.com/peteramckay/bluesnamer">GitHub</a>.</p>
 
-  const form = document.getElementById('userForm');
-  const responseElement = document.getElementById('response');
 
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const formData = new FormData(form);
-    const firstName = formData.get('RnameF');
-    const middleName = formData.get('RnameM');
-    const lastName = formData.get('RnameL');
-    const sex = formData.get('sex');
-
-    let nickname;
-    if (sex === 'male') {
-      nickname = `${firstName.charAt(0).toUpperCase()}${middleName.charAt(0).toUpperCase()}${lastName.charAt(0).toUpperCase()}`;
-    } else if (sex === 'female') {
-      nickname = `${firstName.charAt(0).toLowerCase()}${middleName.charAt(0).toLowerCase()}${lastName.charAt(0).toLowerCase()}`;
-    } else {
-      nickname = `The ${firstName.charAt(0).toUpperCase()}${middleName.charAt(0).toUpperCase()}${lastName.charAt(0).toUpperCase()}`;
-    }
-
-    responseElement.textContent = `Your nickname is: ${nickname}`;
-  });
-
-  </script>
+    </footer>
 
 </body>
 
