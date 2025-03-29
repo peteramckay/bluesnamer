@@ -56,38 +56,97 @@
 
 <body>
 
-    <header class="container">
-      <h1>"Sweet Meat" Pete's Ultimate Blues Name Generator</h1>
+    <header>
+
+      <nav class="row">
+
+        <span class="ten columns" id="textlinks">
+          <a href="#bng">Home</a>
+          <a href="#about">About</a>
+          <a href="#donate">Donate</a>
+        </span>
+
+        <span class="two columns" id="socials">
+          <a href="https://github.com/peteramckay/bluesnamer"><img src="img/github-white.png" alt="GitHub logo"></a>
+        </span>
+
+        <span id="screen"></span>
+
+      </nav>
+
     </header>
 
-    <main class="container">
 
-        <form class="bngform eight columns" id="userForm">
-            <p>First, we'll need the name your mama and the government call you by...</p>
-            <input type="text" name="RnameF" value="" placeholder="First"><br>
-            <input type="text" name="RnameM" value="" placeholder="Middle"><br>
-            <input type="text" name="RnameL" value="" placeholder="Last"><br>
-            <br>
-            <p>Next, your gender, please...</p>
-            <input type="radio" name="sex" id="male" value="male">
-            <label for="male">Hoochie Coochie Man</label><br>
-            <input type="radio" name="sex" id="female" value="female">
-            <label for="female">Mean Mistreatin' Woman</label><br>
-            <input type="radio" name="sex" id="nb" value="nb">
-            <label for="other">It's a new dawn. It's a new day.</label><br>
-            <input type="submit" value="Submit" id="subbutton" onclick="generateBluesName()">
-        </form>
 
-        <section id="response" class="four columns">
-        </section>
+    <main>
+
+       <div class="row" id="bng">
+
+         <h1 class="four columns offset-by-two">"Sweet Meat" Pete's Ultimate Blues Name Generator</h1>
+
+         <form class="bngform three columns offset-by-one" id="userForm">
+             <p>First, we'll need the name your mama and the government call you by...</p>
+             <input type="text" name="RnameF" value="" placeholder="First"><br>
+             <input type="text" name="RnameM" value="" placeholder="Middle"><br>
+             <input type="text" name="RnameL" value="" placeholder="Last"><br>
+             <br>
+             <p>Next, your gender, please...</p>
+             <input type="radio" name="sex" id="male" value="male">
+             <label for="male">Hoochie Coochie Man</label><br>
+             <input type="radio" name="sex" id="female" value="female">
+             <label for="female">Mean Mistreatin' Woman</label><br>
+             <input type="radio" name="sex" id="nb" value="nb">
+             <label for="other">It's a new dawn. It's a new day.</label><br>
+             <input type="submit" value="Submit" id="subbutton" onclick="generateBluesName();scrollToTargetBottom('bng-output')">
+         </form>
+
+
+
+       </div> <!-- end bng div -->
+
+
+       <div class="row" id="bng-output">
+
+         <h1 class="four columns offset-by-one" id="response"></h1>
+
+         <figure class="six columns">
+           <img src="img/bb-heinrich-klaffs-wc-2000.jpg" alt="B.B. King Live im Audimax der Uni Hamburg, November 1971">
+           <figcaption>B.B. King performing in Hamburg, Germany, in 1971. Unedited photo by Heinrich Klaffs via Wikimedia Commons under <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">Creative Commons license</a>. </figcaption>
+         </figure>
+
+
+       </div>
+
+
+
+       <div class="row" id="about">
+         <h3 class="two columns offset-by-one">About</h3>
+
+         <ul class="five columns">
+           <li>The Blues Name Generator was created by "Sweet Meat" Pete McKay. He's reachable via email peter[at]pmckay[dot]com</li>
+           <li>All software is open source and free (like a rolling stone) under MIT License.</li>
+           <li>Bug reports and pull requests welcome via <strong><a href="https://github.com/peteramckay/bluesnamer">GitHub</a></strong></li>
+         </ul>
+
+         </div>
+
+
+       </div><!-- End about div -->
+
+       <div class="row" id="donate">
+         <h3 class="two columns offset-by-one">Donate</h3>
+         <span class="five columns">TK</span>
+       </div><!-- End support div -->
+
 
     </main>
 
-    <footer class="container">
 
 
-        <p class="twelve columns">Copyright Peter A. McKay, 2014-2025 | Email: peter[at]pmckay[dot]com | This software is free (like a rolling stone) under MIT License | Bug reports and pull requests welcome via <a href="https://github.com/peteramckay/bluesnamer">GitHub</a>.</p>
 
+
+
+    <footer>
 
     </footer>
 

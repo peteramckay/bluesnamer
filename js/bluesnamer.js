@@ -55,8 +55,23 @@ function generateBluesName () {
           localStorage.setItem(fullName, nickname);
       }
 
-      responseElement.textContent = `Your nickname is: ${nickname}`;
+      responseElement.textContent = `Your nickname is ${nickname}.`;
   });
 
 
+};
+
+
+
+ function scrollToTargetBottom(targetId) {
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      const rect = targetElement.getBoundingClientRect();
+      window.scrollTo({
+        top: rect.top - window.innerHeight / 2 + rect.height / 2,
+        behavior: 'smooth'
+      });
+    } else {
+      console.error(`Element with id ${targetId} not found.`);
+    }
 };

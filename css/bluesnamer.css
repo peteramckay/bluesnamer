@@ -4,24 +4,67 @@
 * Copyright (c) 2013-2025, Peter A. McKay
 * Free to use under MIT license
 
-
 */
 
-
 html {
-   background: url('../img/jim-tegman-4000.jpg');
+   background: url('../img/blue-cobblestones.jpg');
    background-repeat: no-repeat;
    background-size: cover;
-   background-position: bottom center;
+   background-position: center center;
    background-attachment: fixed;
 }
 
-header h1 {
-  margin: 7rem 0;
-  text-align: center;
+footer, footer a, nav a, #bng h1, #bng-output, #about, #donate, figure a, #about a {color: #eeeee4}
+
+#bng {
+  padding: 7rem 0 35rem 0;
+  min-height: 100%;
 }
 
-header, footer, footer a {color: #eeeee4}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 350;
+}
+
+
+#bng h1 {font-size: 9rem}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+  padding: 0.25rem 2%;
+}
+
+nav #textlinks, nav #socials {
+  position: relative;
+  z-index: 10;
+}
+
+nav #textlinks a {
+  margin-right: 2rem;
+}
+
+nav #socials img {
+  position: relative;
+  top: 0.25rem;
+  height: auto;
+  max-height: 3rem;
+}
+
+nav #screen {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+  background: black;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+
+main {}
 
 footer a {font-weight: bold}
 
@@ -31,182 +74,28 @@ footer>* {
   margin: 7rem 0 3.5rem 0;
 }
 
-form, #response {
-  background: #eeeee4;
-  padding: 3rem;
+form {
+  padding: 2.5rem;
   border-radius: 8px;
 }
+
+form {
+  background: #eeeee4;
+}
+
+#bng-output {
+  padding: 2rem;
+  background: #021f3d;
+  margin-bottom: 15rem;
+}
+
+#response {margin-top: 3rem}
 
 form label {display:inline;}
 
 #subbutton {
-
   background: #0E008F;
   font-size: 1.75rem;
   color: white;
   margin: 3rem 0;
 }
-
-/*
-
-Stashing some old styles here for now, all commented out. Will add back in later...
-
-
-
-
-
-Styles here are based on Skeleton v1.2 by Dave Gamache, with customizations by yours truly (C: - pm
-
-
-
-Table of Content
-==================================================
-
-  #Reset & Basics
-  #Typography
-  #Basic Element Styles
-  #Custom Element Styles
-  #Media Queries
-
-
-/* #Reset & Basics (Inspired by E. Meyers)
-================================================== */
-/*
-  * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-  }
-
-
-/* #Typography
-================================================== */
-/*
-
-/*
-
-Background obtained on Creative Commons license via Flickr at http://www.flickr.com/photos/rickharris/368538048/sizes/o/
-
-*/
-/*
-
-  }
-
-  h1, h2, h3, h4, h5, h6 {font-family: 'Brawler', serif;}
-
-
-  h1 {font-size: 2.8em}
-
-  h2 {font-size: 2.4em}
-
-  h3 {font-size: 1.8em}
-
-  h4, h5, h6 {font-size: 1.6em}
-
-  p, li, input, label {font-size: 1.4em}
-
-  a {
-    text-decoration: none;
-    color: #4B2F9E;
-  }
-
-  a:hover {text-decoration: underline}
-
-
-
-
-/* #Basic Element Styles
-================================================== */
-/*
-body {
-  padding-top: 3em;
-  padding-bottom: 4em}
-
-.contentarea {
-  position: relative;
-  width: 75%;
-  min-width: 300px;
-  padding: 3em;
-  margin: 0 auto;
-  margin-bottom: 4em;
-  background-color: #fff;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
-}
-
-.contentarea:before, .contentarea:after {
-  position: absolute;
-  width: 40%;
-  height: 1em;
-  content: ' ';
-  left: 1em;
-  bottom: 1em;
-  background: transparent;
-  -webkit-transform: skew(-5deg) rotate(-5deg);
-  -moz-transform: skew(-5deg) rotate(-5deg);
-  -ms-transform: skew(-5deg) rotate(-5deg);
-  -o-transform: skew(-5deg) rotate(-5deg);
-  transform: skew(-5deg) rotate(-5deg);
-  box-shadow: 0 6px 12px #141414;
-  z-index: -1;
-}
-
-.contentarea:after {
-  left: auto;
-  right: 1em;
-  -webkit-transform: skew(5deg) rotate(5deg);
-  -moz-transform: skew(5deg) rotate(5deg);
-  -ms-transform: skew(5deg) rotate(5deg);
-  -o-transform: skew(5deg) rotate(5deg);
-  transform: skew(5deg) rotate(5deg);
-}
-
-
-
-
-
-
-
-
-
-
-/* #Custom Element Styles
-================================================== */
-/*
-
-
-
-input {
-  width: 90%;
-  max-width: 500px;
-  display: inline-block;
-  margin-top: 1.5em;
- /* padding: 0.25em*/
-/*}
-
-
-
-form input {
-  border: 1px solid #C6C6C6;
-  padding: 0.25em;
-}
-
-
-
-.contentarea h1 {text-align: center}
-
-.footer {
-  color: #C4C4C4;
-  font-size: 1.2em;
-  text-align: center;
-}
-
-.footer a {color: white}
-
-
-
-
-/* #Media Queries
-================================================== */
