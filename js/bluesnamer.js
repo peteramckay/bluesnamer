@@ -7,13 +7,19 @@ function generateBluesName () {
   const form = document.getElementById('userForm');
   const responseElement = document.getElementById('response');
 
-  const bluesFirstF = ['Alice', 'Aunty', 'Babygirl', 'Candace', 'Dutchess', 'Elvira', 'Frances', 'Mary', 'Valerie', 'Ida', 'Fannie', 'Shirley', 'Foxy', 'Grandma', 'Carolina', 'Queen', 'Sweetie', 'Missy'];
-  const bluesMiddleF = ['\"Pine Tree\"', '\"Washboard\"', '\"Big Money\"'];
-  const bluesFirstM = ['Frenchie', 'Red', 'Louisiana', 'Alabama', 'Mississippi', 'Tennessee', 'Skinny', 'Bill', 'Junious', 'Sonny', 'Sherman', 'Slim', 'Archie', '\"Blind Boy\"', 'Fat', 'Buddy', 'Stick'];
-  const bluesMiddleM = ['\"Slick\"', '\"Sweet Lemon\"', '\"Gumbo\"', 'Azariah', 'Appomattox', 'Lennox', '\"Slim\"'];
-  const bluesFirstN = ['Chickenfoot', 'Gypsy', 'Sticky', 'Happy', 'Boney', 'Curly', '\"Jailhouse\"'];
-  const bluesMiddleN = ['Slick', 'Lemonade', 'Gumbo', '\"T-Bone\"', '\"Death Letter\"', '\"Hot Sauce\"', '\"Chickenwire\"', '\"Mule Head\"', '\"Beef Ribs\"', '\"Barbecue\"', '\"Bumblebee\"', '\"Doc\"', '\"Sleepyhead\"', '\"Lightnin\'\"', 'Belly'];
-  const bluesLast = ['Smith', 'Wilson', 'Johnson', 'King', 'Watkins', 'Jones', 'Jackson', 'Pullman', 'Williams', 'Williamson', 'McHenry', 'Washington', 'Smith', 'Jackson', 'Walker', 'Jenkins', 'Lee'];
+  const bluesFirstF = ['Alice', 'Candace', 'Elvira', 'Frances', 'Mary', 'Valerie', 'Ida', 'Fannie', 'Shirley', 'Carolina', 'Georgia', 'Etta', 'Maple', 'Mavis', 'Bonita', 'Susie', 'Helen', 'Anita', 'Rosetta', 'Virginia', 'Sally', 'Koko', 'Bianca', 'Leigh', 'Johnetta', 'Toni', 'Thelma'];
+
+  const bluesMiddleF = ['\"Auntie\"', '\"Washboard\"', '\"Ma\"', '\"Foxy\"', '\"Queen\"', '\"Babygirl\"', '\"Dutchess\"', '\"Sunshine\"', '\"Ladybird\"', '\"Biscuits\"', '\"Lady\"', '\"Empress\"', '\"Pinetop\"', '\"Cadillac\"', '\"Diamonds\"', '\"Sweet Tea\"', '\"Sweetie\"', '\"Dumplings\"', '\"Dimepiece\"', '\"Honey\"', '\"Honey Pie\"', '\"Brown Sugar\"', '\"Luscious\"', '\"Gypsy Mama\"', '\"Louisiana\"', '\"Alabama\"', '\"Mississipi\"', '\"Tennessee\"', '\"Ma\"', '\"Texas\"', '\"Chi-Town\"', '\"Detroit\"', '\"Cutie\"', '\"Sunflower\"', '\"Willow Tree\"', , '\"Frenchie\"', '\"Hollywood\"', '\"Hummingbird\"', '\"Mustang\"', '\"Honey Bee\"', '\"Lemonade\"'];
+
+  const bluesFirstM = ['Bill', 'Junious', 'Sonny', 'Sherman', 'Archie', 'Azariah', 'Appomattox', 'Lennox', 'Buddy', 'J.T.', 'Isaiah', 'Jim', 'Joe', 'Roger', 'Luther', 'John', 'Johnny', 'Sam', 'Junior', 'Kid', 'Melvin', 'Arthur', 'Eddie', 'Albert', 'David', 'Les', 'Charlie', 'Chuck'];
+
+  const bluesMiddleM = ['\"Slick\"', '\"Sweet Lemon\"', '\"Gumbo\"', '\"Slim\"', '\"Fat\"', '\"Big Money\"', '\"Drumsticks\"', '\"Skinny\"', '\"Guitar\"', '\"Harmonica\"', '\"Boogie Woogie\"', '\"Lightning\"', '\"Typhoon\"', '\"Blind Boy\"', '\"Bigfoot\"', '\"Jailhouse\"', '\"Buffalo\"', '\"Hound Dog\"', '\"Hot Sauce\"', '\"Barbecue\"', '\"Beef Ribs\"', '\"Big Head\"', '\"Sleepy\"', '\"Doc\"', '\"Mule Head\"', '\"Rooster\"', '\"Jawbone\"', '\"Ironing Board\"', '\"Jelly Roll\"', '\"Jump\"', '\"Salt Shaker\"', '\"Jukebox\"', '\"Hacksaw\"', '\"Pickaxe\"', '\"Kingfish\"', '\"Catfish\"', '\"Diamondback\"', '\"Smiley\"'];
+
+  const bluesFirstN = ['Chickenfoot', 'Gypsy', 'Sticky', 'Happy', 'Boney', 'Curly', 'J.T', 'Appomattox'];
+
+  const bluesMiddleN = ['\"T-Bone\"', '\"Death Letter\"', '\"Hot Sauce\"', '\"Chickenwire\"', '\"Mule Head\"', '\"Beef Ribs\"', '\"Barbecue\"', '\"Sleepyhead\"', '\"Lightnin\'\"', '\"Bellyful\"', '\"Lemonade\"', '\"Gumbo\"', '\"Slick\"', '\"Harmonica\"', '\"Guitar\"', '\"Chickensteak\"', '\"Drumsticks\"', '\"Jukebox\"'];
+
+  const bluesLast = ['Smith', 'Wilson', 'Johnson', 'King', 'Watkins', 'Jones', 'Jackson', 'Pullman', 'Williams', 'Williamson', 'McHenry', 'Washington', 'Smith', 'Jackson', 'Walker', 'Jenkins', 'Lee', 'Billups', 'Wilkins', 'Parks', 'Watson', 'Jordan', 'Coleman', 'Davidson', 'McLee', 'Nash', 'McWilliams', 'McWilliamson', 'Richards', 'Richardson', 'Murphy', 'Green'];
 
   form.addEventListener('submit', (e) => {
       e.preventDefault();
