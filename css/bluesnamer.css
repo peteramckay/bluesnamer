@@ -7,14 +7,14 @@
 */
 
 html {
-   background: url('../img/blue-cobblestones.jpg');
+   background: url('../img/mikkel-bech-guitar.jpg');
    background-repeat: no-repeat;
    background-size: cover;
-   background-position: center center;
+   background-position: bottom center;
    background-attachment: fixed;
 }
 
-footer, footer a, nav a, #bng h1, #bng-output, #about, #donate, figure a, #about a {color: #eeeee4}
+footer, footer a, nav a, #bng h1, #bng-output, #about, #donate, figure a, #about a, mark {color: #eeeee4}
 
 #bng {
   padding: 7rem 0 35rem 0;
@@ -27,7 +27,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#bng h1 {font-size: 9rem}
+#bng h1 {
+  font-size: 7.5rem;
+  padding: 1px;
+}
 
 nav {
   position: fixed;
@@ -66,6 +69,8 @@ nav #screen {
 
 main {}
 
+mark {margin: 2px}
+
 footer a {font-weight: bold}
 
 footer {}
@@ -75,18 +80,21 @@ footer>* {
 }
 
 form {
-  padding: 2.5rem;
+  padding: 2.5rem 2%;
   border-radius: 8px;
 }
+
+form * {max-width: 96%}
 
 form {
   background: #eeeee4;
 }
 
-#bng-output {
-  padding: 2rem;
-  background: #021f3d;
-  margin-bottom: 15rem;
+#bng-output, mark {background: #021f3d}
+
+#bng-output, #about {
+  padding: 4rem 0;
+  margin-bottom: 50rem;
 }
 
 #response {margin-top: 3rem}
@@ -98,4 +106,8 @@ form label {display:inline;}
   font-size: 1.75rem;
   color: white;
   margin: 3rem 0;
+}
+
+#about {
+  background: #363636;
 }
