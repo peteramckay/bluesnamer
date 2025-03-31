@@ -13,9 +13,9 @@ function generateBluesName () {
 
   const bluesFirstM = ['Bill', 'McKinley', 'Junious', 'Sonny', 'Sherman', 'Archie', 'Azariah', 'Appomattox', 'Lennox', 'Buddy', 'J.T.', 'Isaiah', 'Jim', 'Joe', 'Roger', 'Luther', 'John', 'Johnny', 'Sam', 'Junior', 'Kid', 'Melvin', 'Arthur', 'Eddie', 'Albert', 'David', 'Les', 'Charlie', 'Chuck'];
 
-  const bluesMiddleM = ['\"Slick\"', '\"Sweet Lemon\"', '\"Gumbo\"', '\"Slim\"', '\"Fat\"', '\"Big Money\"', '\"Drumsticks\"', '\"Skinny\"', '\"Guitar\"', '\"Harmonica\"', '\"Boogie Woogie\"', '\"Lightning\"', '\"Typhoon\"', '\"Blind Boy\"', '\"Bigfoot\"', '\"Jailhouse\"', '\"Buffalo\"', '\"Hound Dog\"', '\"Hot Sauce\"', '\"Barbecue\"', '\"Beef Ribs\"', '\"Big Head\"', '\"Sleepy\"', '\"Doc\"', '\"Mule Head\"', '\"Rooster\"', '\"Jawbone\"', '\"Ironing Board\"', '\"Jelly Roll\"', '\"Jump\"', '\"Salt Shaker\"', '\"Jukebox\"', '\"Hacksaw\"', '\"Pickaxe\"', '\"Kingfish\"', '\"Catfish\"', '\"Diamondback\"', '\"Smiley\"'];
+  const bluesMiddleM = ['\"Slick\"', '\"Sweet Lemon\"', '\"Gumbo\"', '\"Slim\"', '\"Fat\"', '\"Big Money\"', '\"Drumsticks\"', '\"Skinny\"', '\"Guitar\"', '\"Harmonica\"', '\"Boogie Woogie\"', '\"Lightning\"', '\"Typhoon\"', '\"Blind Boy\"', '\"Bigfoot\"', '\"Jailhouse\"', '\"Buffalo\"', '\"Hound Dog\"', '\"Hot Sauce\"', '\"Barbecue\"', '\"Beef Ribs\"', '\"Big Head\"', '\"Sleepy\"', '\"Doc\"', '\"Mule Head\"', '\"Rooster\"', '\"Jawbone\"', '\"Ironing Board\"', '\"Jelly Roll\"', '\"Jump\"', '\"Salt Shaker\"', '\"Jukebox\"', '\"Hacksaw\"', '\"Pickaxe\"', '\"Kingfish\"', '\"Catfish\"', '\"Diamondback\"', '\"Smiley\"', '\"Deacon\"'];
 
-  const bluesFirstN = ['Chickenfoot', 'Gypsy', 'Sticky', 'Happy', 'Boney', 'Curly', 'J.T', 'Appomattox'];
+  const bluesFirstN = ['Chickenfoot', 'Gypsy', 'Sticky', 'Happy', 'Boney', 'Curly', 'J.T', 'Appomattox', 'Billie'];
 
   const bluesMiddleN = ['\"T-Bone\"', '\"Death Letter\"', '\"Hot Sauce\"', '\"Chicken Coop\"', '\"Mule Head\"', '\"Beef Ribs\"', '\"Barbecue\"', '\"Sleepyhead\"', '\"Lightnin\'\"', '\"Bellyful\"', '\"Lemonade\"', '\"Gumbo\"', '\"Slick\"', '\"Harmonica\"', '\"Guitar\"', '\"Chickensteak\"', '\"Drumsticks\"', '\"Jukebox\"', '\"Grits\"', '\"Flapjack\"'];
 
