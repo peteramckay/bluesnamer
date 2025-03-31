@@ -55,7 +55,13 @@ function generateBluesName () {
               const randomMiddleName = middleNameArray[Math.floor(Math.random() * middleNameArray.length)];
               const randomLastName = bluesLast[Math.floor(Math.random() * bluesLast.length)];
 
-              nickname = `${randomFirstName} ${randomMiddleName} ${randomLastName}`;
+              // Randomize the placement of the middle name
+              const randomPlacement = Math.random() < 0.5 ? 0 : 1;
+              if (randomPlacement === 0) {
+                  nickname = `${randomMiddleName} ${randomFirstName} ${randomLastName}`;
+              } else {
+                  nickname = `${randomFirstName} ${randomMiddleName} ${randomLastName}`;
+              }
           }
 
           localStorage.setItem(fullName, nickname);
@@ -67,9 +73,7 @@ function generateBluesName () {
 
 };
 
-
-
- function scrollToTargetBottom(targetId) {
+function scrollToTargetBottom(targetId) {
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
       const rect = targetElement.getBoundingClientRect();
