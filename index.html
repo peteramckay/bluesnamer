@@ -10,7 +10,7 @@
     <meta name="description" content="Sweet Meat Pete's Ultimate Blues Name Generator">
     <meta name="author" content="Peter A. McKay">
 
-<!--
+   <!--
     <meta name="keywords" content="">
     <!-- Some Open Graph tags. For further options, see https://https://ogp.me/ -->
     <!--<meta name="og:type" content="website">
@@ -42,7 +42,7 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="js/bluesnamer.js"></script>
 
-<!--
+  <!--
 
     <script type="application/ld+json">
       {
@@ -50,109 +50,84 @@
         //Additional schema.org site metadata here, if you want...
       }
     </script>
--->
+  -->
 
 </head>
 
 <body>
 
-    <header>
-
-      <nav class="row">
-
-        <span class="ten columns" id="textlinks">
-          <a href="#bng">Home</a>
-          <a href="#about">About</a>
-<!--          <a href="#donate">Donate</a> -->
-        </span>
-
-        <span class="two columns" id="socials">
-          <a href="https://github.com/peteramckay/bluesnamer"><img src="img/github-white.png" alt="GitHub logo"></a>
-        </span>
-
-        <span id="screen"></span>
-
-      </nav>
-
-    </header>
-
-
+    <header></header>
 
     <main>
 
-       <div class="row" id="bng">
+      <section class="container" id="bng">
 
-         <h1 class="four columns offset-by-two"><mark>"Sweet Meat" Pete's Ultimate Blues Name Generator</mark></h1>
+        <h1 class="six columns"><mark>"Sweet Meat" Pete's Ultimate Blues Name Generator</mark></h1>
 
-         <form class="bngform three columns offset-by-one" id="userForm">
-             <p>First, we'll need the name your mama and the government call you by...</p>
-             <input type="text" name="RnameF" value="" placeholder="First"><br>
-             <input type="text" name="RnameM" value="" placeholder="Middle"><br>
-             <input type="text" name="RnameL" value="" placeholder="Last"><br>
-             <br>
-             <p>Next, your gender, please...</p>
-             <input type="radio" name="sex" id="male" value="male">
-             <label for="male">Hoochie Coochie Man</label><br>
-             <input type="radio" name="sex" id="female" value="female">
-             <label for="female">Mean Mistreatin' Woman</label><br>
-             <input type="radio" name="sex" id="nb" value="nb">
-             <label for="other">It's a new dawn. It's a new day.</label><br>
-             <input type="submit" value="Submit" id="subbutton" onclick="generateBluesName();scrollToTargetBottom('bng-output')">
-         </form>
+        <form class="bngform five columns" id="userForm">
+            <p>First, we'll need the name your mama and the government call you by...</p>
+            <input type="text" name="RnameF" value="" placeholder="First"><br>
+            <input type="text" name="RnameM" value="" placeholder="Middle"><br>
+            <input type="text" name="RnameL" value="" placeholder="Last"><br>
+            <br>
+            <p>Next, your gender, please...</p>
+            <input type="radio" name="sex" id="male" value="male">
+            <label for="male">Hoochie Coochie Man</label><br>
+            <input type="radio" name="sex" id="female" value="female">
+            <label for="female">Mean Mistreatin' Woman</label><br>
+            <input type="radio" name="sex" id="nb" value="nb">
+            <label for="other">It's a new dawn. It's a new day.</label><br>
+            <input type="submit" value="Submit" id="subbutton" onclick="generateBluesName();scrollToTargetBottom('bng-output')">
+          </form>
 
+      </section> <!-- End bng container -->
 
+      <section class="row" id="bng-output">
 
-       </div> <!-- end bng div -->
+        <h1 class="five columns" id="response"></h1>
 
+        <figure class="six columns">
+          <img src="img/bb-heinrich-klaffs-wc-2000.jpg" alt="B.B. King Live im Audimax der Uni Hamburg, November 1971">
+          <figcaption>B.B. King performing in Hamburg, Germany, in 1971. Unedited photo by Heinrich Klaffs via Wikimedia Commons under <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">Creative Commons license</a>. </figcaption>
+        </figure>
+      </section> <!-- End bng-output -->
 
-       <div class="row" id="bng-output">
+      <section class="row" id="about">
 
-         <h1 class="four columns offset-by-one" id="response"></h1>
+        <h2 class="three columns">About</h2>
 
-         <figure class="six columns">
-           <img src="img/bb-heinrich-klaffs-wc-2000.jpg" alt="B.B. King Live im Audimax der Uni Hamburg, November 1971">
-           <figcaption>B.B. King performing in Hamburg, Germany, in 1971. Unedited photo by Heinrich Klaffs via Wikimedia Commons under <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">Creative Commons license</a>. </figcaption>
-         </figure>
+        <ul class="five columns">
+          <li>The Blues Name Generator was created by "Sweet Meat" Pete McKay. He's reachable via email peter[at]pmckay[dot]com</li>
+          <li>Background image by <strong><a href="https://unsplash.com/@bechbox">Mikkel Bech</a></strong> via Unsplash.</li>
+          <li>All software is open source and free (like a rolling stone) to redistribute or modify under MIT License.</li>
+          <li>Bug reports and pull requests welcome via <strong><a href="https://github.com/peteramckay/bluesnamer">GitHub</a></strong></li>
+        </ul>
 
+      </section> <!-- End about -->
 
-       </div>
-
-
-
-       <div class="row" id="about">
-         <h3 class="two columns offset-by-one">About</h3>
-
-         <ul class="five columns">
-           <li>The Blues Name Generator was created by "Sweet Meat" Pete McKay. He's reachable via email peter[at]pmckay[dot]com</li>
-           <li>Background image by <strong><a href="https://unsplash.com/@bechbox">Mikkel Bech</a></strong> via Unsplash.</li>
-           <li>All software is open source and free (like a rolling stone) to redistribute or modify under MIT License.</li>
-           <li>Bug reports and pull requests welcome via <strong><a href="https://github.com/peteramckay/bluesnamer">GitHub</a></strong></li>
-         </ul>
-
-         </div>
-
-
-       </div><!-- End about div -->
-
-
-<!--
-
-      <div class="row" id="donate">
-         <h3 class="two columns offset-by-one">Donate</h3>
-         <span class="five columns">TK</span>
-       </div>
-
--->
-
+      <!-- <section id="donate"></section> End donate -->
 
     </main>
 
 
-
-
-
-
     <footer>
+
+      <nav>
+
+        <div id="textscreen"></div>
+
+        <div id="textlinks" class="eight columns">
+          <a href="#bng">Home</a>
+          <a href="#about">About</a>
+          <!-- <a href="#donate">Donate</a> -->
+        </div> <!-- End textlinks -->
+
+        <div id="socials" class="three columns">
+          <a href="https://github.com/peteramckay/bluesnamer"><img src="img/github-white.png" alt="GitHub logo"></a>
+        </div>
+
+
+      </nav>
 
     </footer>
 
