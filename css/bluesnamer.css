@@ -167,8 +167,8 @@ nav #textlinks a {
     opacity: 0.6;
   }
 
- nav img {
-   right: 8%;
+ nav #socials {
+   text-align: center;
  }
 
 } /* End media query for 950px breakpoint */
