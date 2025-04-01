@@ -43,11 +43,6 @@ section.row { /* Some styles for fields below the main generator area at the top
 mark, section.row {background: #021f3d}
 
 
-
-
-
-
-
 /* Now let's style some children within the main and footer elements... */
 
 
@@ -114,21 +109,67 @@ nav #textlinks a {
 
 @media (max-width: 1000px) {
 
-  body {}
-
-  section.row { /* Some styles for fields below the main generator area at the top of the page */
-    padding: 5rem 2%;
+  html, header, main {
+    background: #021f3d;
   }
 
-  #bng>* {
-    display: block;
-    width: 95%;
-    text-align: center;
+  header {height: 6rem} /* Using this element as a vertical spacer for now. */
+
+  main>*, .container#bng {
+    width: 100%;
+    margin: 0 0 2rem 0;
+    padding: 0 3%;
   }
 
-  #bng h1 {margin: 2rem 0 7rem 0;}
+.container#bng>* {
+  width: 100%;
+  margin: 2rem 0;
 }
 
-@media (max-width: 750px) {}
+  #bng>*, #bng-output>*, #about>* {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 93%;
+}
 
-@media (max-width: 500px) {}
+  #bng, h1, h2, h3, h4, h5, h6 {text-align: center;}
+
+  #about h2 {margin-bottom: 2rem}
+
+  #bng h1 {
+    font-size: 4.5rem;
+  }
+
+  #bng-output figure {
+    padding: 2rem 3%;
+  }
+
+  footer, nav {
+    position: fixed;
+    top:0;
+    height: auto;
+    max-height: 4rem;
+  }
+
+
+  nav #textscreen {
+    opacity: 0.6;
+  }
+
+ #socials {text-align: right}
+
+} /* End media query for 950px breakpoint */
+
+
+@media (max-width: 600px) {
+
+  *, h1, h2, h3, h4, h5, h6 {text-align: left}
+
+  #textlinks {padding: 0 3%}
+
+  #bng form {padding: 2rem 3%;}
+
+  #socials {display: none;}
+
+}
