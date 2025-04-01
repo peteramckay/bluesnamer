@@ -100,10 +100,18 @@ nav #textscreen {
   opacity: 0.8;
 }
 
+nav img {
+  position: relative;
+  top: 0.25rem;
+}
+
 nav #textlinks a {
   margin-right: 2rem;
 }
 
+#socials {
+  text-align: right;
+}
 
 /* Finally, some media queries to help with display on mobile devices... */
 
@@ -141,6 +149,8 @@ nav #textlinks a {
     font-size: 4.5rem;
   }
 
+  #bng form {padding: 2rem 3%;}
+
   #bng-output figure {
     padding: 2rem 3%;
   }
@@ -157,7 +167,9 @@ nav #textlinks a {
     opacity: 0.6;
   }
 
- #socials {text-align: right}
+ nav img {
+   right: 8%;
+ }
 
 } /* End media query for 950px breakpoint */
 
@@ -168,7 +180,6 @@ nav #textlinks a {
 
   #textlinks {padding: 0 3%}
 
-  #bng form {padding: 2rem 3%;}
 
   #socials {display: none;}
 
