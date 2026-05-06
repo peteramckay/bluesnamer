@@ -1,4 +1,4 @@
-# "Sweet Meat" Pete's Ultimate Blues Name Generator
+# Pete's Ultimate Blues Name Generator
 
 A fun personal project here to create a simple JavaScript app that generates a bluesy nickname for a user via a web form.
 
